@@ -1,0 +1,8 @@
+name: HeartStars
+version: '${project.version}'
+main: plugin.heartstars.HeartStars
+api-version: 1.19
+commands:
+  changestar:
+    description: change the star value
+    usage: /changestar <star_amount>

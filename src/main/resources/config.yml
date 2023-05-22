@@ -1,0 +1,9 @@
+socketToken: 'yourSocketToken'
+maxHearts: 50
+streamerName: 'theStreamerName'
+starsAmount: '100'
+messages:
+  heartRemoved: 'You''ve lost a heart!'
+  heartAdded: 'You''ve gained a heart!'
+  eliminated: 'You''ve lost all your hearts!'
+  heartsMaxed: 'You already have the maximum hearts allowed!'
