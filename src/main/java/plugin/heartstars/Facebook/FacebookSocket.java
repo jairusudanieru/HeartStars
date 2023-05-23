@@ -6,6 +6,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.json.JSONArray;
 import org.json.JSONObject;
+import plugin.heartstars.Configuration.CenterChatMessage;
 import plugin.heartstars.Events.PlayerSentStars;
 
 import java.net.URISyntaxException;
@@ -62,9 +63,9 @@ public class FacebookSocket {
                     //do something here
                     break;
                 case "stars":
+                    String message = "§c§l" + name + "§r has sent §e§l" + amount + " stars!§r";
                     sentStars.onPlayerSentStars(amount, comment, plugin);
-                    //System.out.println(streamData);
-                    //System.out.println(comment);
+                    CenterChatMessage.sendCenteredMessage(message);
                     break;
                 case "support":
                     //System.out.println(streamData);

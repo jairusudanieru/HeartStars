@@ -1,10 +1,12 @@
 package plugin.heartstars.Events;
 
+import net.kyori.adventure.text.Component;
 import org.bukkit.Bukkit;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.attribute.AttributeInstance;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
+import plugin.heartstars.Configuration.CenterChatMessage;
 
 public class PlayerSentStars {
 
@@ -31,11 +33,13 @@ public class PlayerSentStars {
                     maxHealth.setBaseValue(newValue);
                     int newHearts = (int) ((newValue - maxHealthBaseValue)/2);
                     String heartsString = Integer.toString(newHearts);
-                    player.sendMessage("You received " + heartsString + " hearts!");
+                    String message = "You received " + heartsString + " hearts!";
+                    player.sendMessage(Component.text(message));
                     break;
                 }
             }
         }
+
     }
 
 }

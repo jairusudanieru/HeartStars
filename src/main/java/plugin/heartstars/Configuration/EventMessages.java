@@ -1,4 +1,4 @@
-package plugin.heartstars.Messages;
+package plugin.heartstars.Configuration;
 
 import org.bukkit.plugin.java.JavaPlugin;
 

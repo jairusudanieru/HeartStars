@@ -15,7 +15,7 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
-import plugin.heartstars.Messages.EventMessages;
+import plugin.heartstars.Configuration.EventMessages;
 
 public class PlayerUseHearts implements Listener {
 

@@ -12,7 +12,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerRespawnEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
-import plugin.heartstars.Messages.EventMessages;
+import plugin.heartstars.Configuration.EventMessages;
 
 public class PlayerRespawn implements Listener {
 
